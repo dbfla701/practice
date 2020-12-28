@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>조건문</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+/* var num=confirm("탈퇴하시겠습니까?");
+if(num){
+document.write("탈퇴 완료");
+}else{
+	document.write("탈퇴 실패");
+} */
+
+var id="user";
+var password="user";
+
+var insertId=prompt("아이디를 입력하세요","");
+var insertPw=prompt("비번을 입력하세요","");
+
+if(insertId==id){
+	if(insertPw==password){
+		document.write("로그인 성공");
+	}else{
+		alert("비번틀림");
+	}
+}else{
+	alert("아이디 틀림");
+}
+
+</script>
+</html>

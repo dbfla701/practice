@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+var site=prompt("자주 이용하는 사이트는?","");
+switch(site){
+case "구글" : url="www.google.com";
+break;
+case "네이버" : url="www.naver.com";
+break;
+case "다음" : url= "www.daum.net";
+break;
+default: alert="보기에 없는 사이트";
+}
+
+if(url) location.href="http://"+url;
+
+</script>
+</html>
